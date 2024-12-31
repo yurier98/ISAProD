@@ -1,0 +1,140 @@
+title: 'Nuxt UI Pro - Docs template'
+description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+navigation: false
+hero:
+  title: 'Domina el Arte del Desarrollo de Software Ágil'
+  description: 'Bienvenido a ISAProD, el curso que te llevará al corazón del desarrollo de software ágil. Aquí, aprenderás a navegar por el cambiante panorama de la ingeniería de software, dominando técnicas y herramientas que te permitirán crear soluciones innovadoras y adaptables.'
+  orientation: horizontal
+  headline:
+    label: Made with Nuxt UI Pro
+    to: https://ui.nuxt.com/pro
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  links:
+    - label: Comenzar
+      icon: i-heroicons-arrow-right-20-solid
+      trailing: true
+      to: '/getting-started'
+      size: lg
+    - label: Use this template
+      icon: i-simple-icons-github
+      size: lg
+      color: gray
+      to: https://github.com/nuxt-ui-pro/docs
+      target: _blank
+  code: |
+    ```bash [Terminal]
+    npx nuxi init -t github:nuxt-ui-pro/docs
+    ```
+features:
+  title: 'Módulos del Curso'
+  description: 'En ISAProD, te sumergirás en una experiencia de aprendizaje integral, explorando cuatro módulos clave que te prepararán para dominar el arte del desarrollo de productos digitales'
+  links:
+    - label: 'Explorar módulos'
+      trailingIcon: 'i-heroicons-arrow-right-20-solid'
+      color: 'gray'
+      to: '/coursework'
+      target: '_blank'
+      size: lg
+  items:
+    - title: 'Diseño de Productos Ágiles'
+      description: 'Aprende a diseñar productos de software centrados en el usuario y adaptables a los cambios.'
+      icon: 'ph:pencil-ruler-duotone'
+      to: 'https://nuxt.com'
+      target: '_blank'
+    - title: 'Seminario de Innovación'
+      description: 'Participa en un seminario dinámico sobre innovación y descubre cómo impulsar soluciones de software creativas.'
+      icon: 'ph:atom-duotone'
+      to: 'https://content.nuxt.com'
+      target: '_blank'
+    - title: 'Aplicación de Inteligencia Artificial'
+      description: 'Descubre cómo la inteligencia artificial y los modelos de lenguaje transforman el desarrollo de software.'
+      icon: 'i-heroicons-sparkles-20-solid'
+      to: 'https://ui.nuxt.com'
+      target: '_blank'
+    - title: 'Proyecto Fin de Carrera'
+      description: 'Pon en práctica todo lo aprendido y crea una aplicación innovadora que marque la diferencia.'
+      icon: 'ph:package-duotone'
+      to: 'https://www.typescriptlang.org'
+      target: '_blank'
+sections:
+  - title: El <span class="text-gradient bg-gradient-to-r bg-clip-text text-transparent font-bold from-orange-500 from-10% via-violet-500 via- to-blue-500 to-80%"> poder </span> de nuestro servicio
+    description: Simplifique sus flujos de trabajo diarios con un software de gestión de alquileres que le ayuda
+    id: features
+    image: 'features/GoYRENT.jpeg'
+    align: left
+    features:
+      - name: Cree, gestione y tramite pedidos fácilmente.
+        description: Tanto si atiende a clientes sin cita previa como si acepta reservas por Internet.
+        icon: i-heroicons-cog
+      - name: Automatice la gestión de su inventario.
+        description: Se acabaron las conjeturas, las reservas dobles y las carencias.
+        icon: i-heroicons-check
+      - name: Secure
+        description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing.
+        icon: i-heroicons-lock-closed
+    links:
+      - label: Explore components
+        to: /pro/components
+        color: gray
+        icon: i-heroicons-arrow-right-20-solid
+        trailing: true
+        size: md
+        class: ml-8
+  - title: ¿Por qué elegir ISAProD?
+    description: 'El curso de Ingeniería de Software Ágil (ISAProD) te ofrece una experiencia de aprendizaje integral y práctica para convertirte en un profesional destacado en el desarrollo de software. Aquí te explicamos las principales razones por las que deberías elegir este programa:'
+    image: 'features/GoYRENT.jpeg'
+    align: right
+    features:
+      - name: Diseño Ágil de Productos
+        description: Aprenderás a diseñar productos de software de manera ágil y centrada en el usuario.
+        icon: ph-laptop-duotone
+      - name: Tendencias en Desarrollo
+        description: Dominarás las últimas tendencias en desarrollo de software, incluyendo la aplicación de inteligencia artificial y modelos de lenguaje.
+        icon: ph-lightning-duotone
+      - name: Habilidades Prácticas
+        description: Desarrollarás habilidades prácticas que te prepararán para enfrentar los desafíos del mundo real.
+        icon: ph-briefcase-duotone
+      - name: Proyectos Desafiantes
+        description: Trabajarás en proyectos desafiantes y emocionantes que te permitirán brillar.
+        icon: ph-rocket-duotone
+      - name: Equipo Docente Experto
+        description: Contarás con el apoyo de un equipo docente experimentado y apasionado.
+        icon: ph-user-duotone
+    links:
+      - label: Learn more
+        to: /pro/guide/content
+        color: gray
+        icon: i-heroicons-arrow-right-20-solid
+        trailing: true
+        size: md
+        class: ml-8
+faq:
+  title: Preguntas frecuentes
+  description: Todos los planes incluyen la incorporación gratuita, la asistencia y el acceso al centro de ayuda.
+  items:
+    - label: ¿Qué aprenderé en el curso de ISAProD?
+      content: En ISAProD, aprenderás a diseñar, desarrollar y aplicar soluciones de software ágiles y centradas en el usuario. Explorarás técnicas de diseño de productos, desarrollo de software, uso de inteligencia artificial y la creación de un proyecto final innovador.
+      defaultOpen: true
+    - label: ¿Quiénes pueden inscribirse en ISAProD?
+      content: El curso de ISAProD está dirigido a estudiantes y profesionales interesados en el desarrollo de software ágil. Tanto si eres un principiante como si tienes experiencia previa, este curso te brindará las habilidades necesarias para destacar en el campo de la ingeniería de software.
+    - label: ¿Cuál es la duración del curso?
+      content: ISAProD es un curso de 4 módulos que se imparte a lo largo de un semestre académico. Cada módulo tiene una duración de aproximadamente 4-6 semanas, lo que permite un aprendizaje en profundidad y la aplicación práctica de los conceptos.
+    - label: ¿Cómo se evalúa el desempeño en el curso?
+      content: La evaluación en ISAProD se basa en una combinación de tareas, proyectos y presentaciones. Tendrás la oportunidad de demostrar tus habilidades a través de trabajos individuales y en equipo, con un énfasis en la aplicación práctica de lo aprendido.
+    - label: ¿Qué tipo de certificación obtengo al finalizar el curso?
+      content: Al completar satisfactoriamente el curso de ISAProD, recibirás un certificado que acredita tus conocimientos y habilidades en el desarrollo de software ágil. Este certificado será reconocido por nuestra institución y te ayudará a destacar en el mercado laboral.
+    - label: ¿Hay algún requisito previo para inscribirse?
+      content: No se requieren conocimientos previos específicos para inscribirse en ISAProD. Sin embargo, se recomienda tener una base en programación y estar familiarizado con los conceptos básicos de la ingeniería de software.
+cta:
+  title: Inscribete al curso ya
+  description: Si estás interesado en unirte a esta experiencia transformadora, ya sea que provengas de ingeniería, diseño, negocios o cualquier otra disciplina, ¡te invitamos a formar parte de ISAProD y a ser parte de la próxima generación de líderes en el diseño y desarrollo de productos digitales!
+  links:
+    - label: Probar gratis ahora
+      size: xl
+      color: black
+      to: /pricing
+    - label: Ver demostración
+      size: xl
+      trailingIcon: 'i-heroicons-arrow-right-20-solid'
+      color: gray
+      to: /pricing
