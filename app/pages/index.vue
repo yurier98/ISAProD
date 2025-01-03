@@ -46,13 +46,26 @@ useSeoMeta({
       </template>
 
       <template #title>
-        <MDC :value="page.hero.title" />
+        <div class="text-5xl">
+          <MDC :value="page.hero.title" />
+        </div>
       </template>
 
-      <MDC
-        :value="page.hero.code"
-        class="prose prose-primary dark:prose-invert mx-auto"
-      />
+      <ClientOnly>
+        <video
+          ref="/1.mp4"
+          autoplay
+          loop
+          muted
+          class="w-full rounded-xl shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+        >
+          <source
+            src="/2.mp4"
+            type="video/mp4"
+          >
+          Your browser does not support the video tag.
+        </video>
+      </ClientOnly>
     </ULandingHero>
 
     <ULandingSection
@@ -83,12 +96,46 @@ useSeoMeta({
         </div>
       </template>
 
+      <ClientOnly>
+        <video
+          v-if="section.video"
+          ref="/1.mp4"
+          :src="section.video"
+          autoplay
+          loop
+          muted
+          class="w-full rounded-xl shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+        >
+          <source
+            v-if="section.video"
+            :src="section.video"
+            type="video/mp4"
+          >
+          Your browser does not support the video tag.
+        </video>
+      </ClientOnly>
+
       <img
         v-if="section.image"
         :src="section.image"
-        class="w-4/5 rounded-xl shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
+        class="w-full rounded-xl shadow-xl ring-1 ring-gray-300 dark:ring-gray-700"
       >
     </ULandingSection>
+
+    <div id="experts">
+      <ULandingSection
+        :title="page.experts.title"
+        :description="page.experts.description"
+      >
+        <UPageGrid>
+          <ExpertCard
+            v-for="(item, index) in page.experts.members"
+            :key="index"
+            v-bind="item"
+          />
+        </UPageGrid>
+      </ULandingSection>
+    </div>
 
     <ULandingSection
       :title="page.faq.title"

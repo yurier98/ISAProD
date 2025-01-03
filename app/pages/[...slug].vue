@@ -27,15 +27,6 @@ useSeoMeta({
 })
 
 defineOgImageComponent('Docs')
-
-const headline = computed(() => findPageHeadline(page.value))
-
-const communityLinks = computed(() => [toc?.bottom?.edit && {
-  icon: 'i-heroicons-pencil-square',
-  label: 'Edit this page',
-  to: `${toc.bottom.edit}/${page?.value?._file}`,
-  target: '_blank'
-}, ...(toc?.bottom?.links || [])].filter(Boolean))
 </script>
 
 <template>
@@ -64,7 +55,7 @@ const communityLinks = computed(() => [toc?.bottom?.edit && {
     >
       <UContentToc
         title="Tabla de contenido"
-        :links="page.body?.toc?.links"
+        :links="page.body && page.body.toc ? page.body.toc.links : []"
       >
         <template #bottom>
           <div

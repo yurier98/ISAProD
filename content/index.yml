@@ -2,12 +2,12 @@ title: 'Nuxt UI Pro - Docs template'
 description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
 navigation: false
 hero:
-  title: 'Domina el Arte del Desarrollo de Software Ágil'
-  description: 'Bienvenido a ISAProD, el curso que te llevará al corazón del desarrollo de software ágil. Aquí, aprenderás a navegar por el cambiante panorama de la ingeniería de software, dominando técnicas y herramientas que te permitirán crear soluciones innovadoras y adaptables.'
+  title: 'Domina el arte del desarrollo de productos de software para mercados digitales'
+  description: 'Bienvenido a ISAProD, el curso que te llevará al corazón del desarrollo de productos ágiles. Aquí, aprenderás a navegar por el cambiante panorama del proceso creativo detrás del desarrollo de productos de software que te permitirán crear soluciones innovadoras y adaptables.'
   orientation: horizontal
   headline:
-    label: Made with Nuxt UI Pro
-    to: https://ui.nuxt.com/pro
+    label: ¿Por qué ISAProD?
+    to: '/getting-started'
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
     - label: Comenzar
@@ -15,16 +15,8 @@ hero:
       trailing: true
       to: '/getting-started'
       size: lg
-    - label: Use this template
-      icon: i-simple-icons-github
-      size: lg
-      color: gray
-      to: https://github.com/nuxt-ui-pro/docs
-      target: _blank
-  code: |
-    ```bash [Terminal]
-    npx nuxi init -t github:nuxt-ui-pro/docs
-    ```
+  img: 'social-card.png'
+
 features:
   title: 'Módulos del Curso'
   description: 'En ISAProD, te sumergirás en una experiencia de aprendizaje integral, explorando cuatro módulos clave que te prepararán para dominar el arte del desarrollo de productos digitales'
@@ -60,7 +52,7 @@ sections:
   - title: El <span class="text-gradient bg-gradient-to-r bg-clip-text text-transparent font-bold from-orange-500 from-10% via-violet-500 via- to-blue-500 to-80%"> poder </span> de nuestro servicio
     description: Simplifique sus flujos de trabajo diarios con un software de gestión de alquileres que le ayuda
     id: features
-    image: 'features/GoYRENT.jpeg'
+    image: 'social-card.png'
     align: left
     features:
       - name: Cree, gestione y tramite pedidos fácilmente.
@@ -81,8 +73,8 @@ sections:
         size: md
         class: ml-8
   - title: ¿Por qué elegir ISAProD?
-    description: 'El curso de Ingeniería de Software Ágil (ISAProD) te ofrece una experiencia de aprendizaje integral y práctica para convertirte en un profesional destacado en el desarrollo de software. Aquí te explicamos las principales razones por las que deberías elegir este programa:'
-    image: 'features/GoYRENT.jpeg'
+    description: 'ISAProD te ofrece una experiencia de aprendizaje integral y práctica para convertirte en un profesional destacado en el desarrollo de productos digitales. Aquí te explicamos las principales razones por las que deberías elegir este programa:'
+    video: '1.mp4'
     align: right
     features:
       - name: Diseño Ágil de Productos
@@ -108,6 +100,36 @@ sections:
         trailing: true
         size: md
         class: ml-8
+
+experts:
+  title: Descubre a los instructores de ISAProD
+  description: Expertos en el desarrollo de productos digitales para tu éxito profesional
+  members:
+    - name: 'Yurier Herrera'
+      location: 'Vermont, United States'
+      logo: 'https://avatars.githubusercontent.com/u/739984?v=4'
+      to: 'https://volta.net'
+      services:
+        - name: Instalación de GoYRENT
+        - name: Estrategia de marketing
+        - name: Identidad de la marca
+    - name: JMarketing
+      location: La Lisa, La Habana
+      logo: 'https://avatars.githubusercontent.com/u/739984?v=4'
+      to: 'https://volta.net'
+      services:
+        - name: Instalación de GoYRENT
+        - name: Estrategia de marketing
+        - name: Identidad de la marca
+    - name: 'Evolusium'
+      location: 'Los Arabos, Matanzas'
+      logo: 'https://avatars.githubusercontent.com/u/739984?v=4'
+      to: 'https://volta.net'
+      services:
+        - name: Instalación de GoYRENT
+        - name: Marketing de contenidos
+        - name: Diseño del logotipo
+
 faq:
   title: Preguntas frecuentes
   description: Todos los planes incluyen la incorporación gratuita, la asistencia y el acceso al centro de ayuda.
@@ -129,12 +151,8 @@ cta:
   title: Inscribete al curso ya
   description: Si estás interesado en unirte a esta experiencia transformadora, ya sea que provengas de ingeniería, diseño, negocios o cualquier otra disciplina, ¡te invitamos a formar parte de ISAProD y a ser parte de la próxima generación de líderes en el diseño y desarrollo de productos digitales!
   links:
-    - label: Probar gratis ahora
+    - label: Inscribirme
       size: xl
       color: black
       to: /pricing
-    - label: Ver demostración
-      size: xl
-      trailingIcon: 'i-heroicons-arrow-right-20-solid'
-      color: gray
-      to: /pricing
+

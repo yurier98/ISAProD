@@ -23,9 +23,14 @@
   },
   "devDependencies": {
     "@iconify-json/ph": "^1.2.2",
+    "@inspira-ui/plugins": "^0.0.1",
     "@nuxt/eslint": "^0.7.4",
     "@nuxthq/studio": "^2.2.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "eslint": "^9.17.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
     "vue-tsc": "^2.2.0"
   },
   "resolutions": {
