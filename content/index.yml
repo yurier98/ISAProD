@@ -1,5 +1,5 @@
-title: 'Nuxt UI Pro - Docs template'
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+title: 'ISAProD'
+description: Domina el arte del desarrollo de productos de software para mercados digitales
 navigation: false
 hero:
   title: 'Domina el arte del desarrollo de productos de software para mercados digitales'
@@ -31,22 +31,19 @@ features:
     - title: 'Diseño de Productos Ágiles'
       description: 'Aprende a diseñar productos de software centrados en el usuario y adaptables a los cambios.'
       icon: 'ph:pencil-ruler-duotone'
-      to: 'https://nuxt.com'
-      target: '_blank'
+      to: '/coursework/product-design'
     - title: 'Seminario de Innovación'
       description: 'Participa en un seminario dinámico sobre innovación y descubre cómo impulsar soluciones de software creativas.'
       icon: 'ph:atom-duotone'
-      to: 'https://content.nuxt.com'
-      target: '_blank'
+      to: '/coursework/innovation-seminar'
     - title: 'Aplicación de Inteligencia Artificial'
       description: 'Descubre cómo la inteligencia artificial y los modelos de lenguaje transforman el desarrollo de software.'
       icon: 'i-heroicons-sparkles-20-solid'
-      to: 'https://ui.nuxt.com'
-      target: '_blank'
+      to: '/coursework/artificial-intelligence'
     - title: 'Proyecto Fin de Carrera'
       description: 'Pon en práctica todo lo aprendido y crea una aplicación innovadora que marque la diferencia.'
       icon: 'ph:package-duotone'
-      to: 'https://www.typescriptlang.org'
+      to: '/coursework/project'
       target: '_blank'
 sections:
   - title: El <span class="text-gradient bg-gradient-to-r bg-clip-text text-transparent font-bold from-orange-500 from-10% via-violet-500 via- to-blue-500 to-80%"> poder </span> de nuestro servicio
@@ -154,5 +151,5 @@ cta:
     - label: Inscribirme
       size: xl
       color: black
-      to: /pricing
+      to: '/getting-started'
 
